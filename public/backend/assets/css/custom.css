@@ -1,0 +1,75 @@
+.dt-header {
+    position: relative;
+    z-index: 99;
+    height: 72px;
+    /* background-color: #000!important; */
+    box-shadow: 0 0 4px 4px rgba(0,0,0,0.08);
+    transition: all 0.2s ease;
+}
+.lgt-btn{
+	padding: 8px 12px !important;
+}
+
+.display-3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.05;
+}
+.text-geekblue {
+    font-size: 20px !important;
+} 
+.size-80 {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+}
+.dt-card__full-height {
+    height: calc(100% - 20%);
+}
+.bg-warning {
+    background-color: #fff !important;
+    box-shadow: 3px 10px #adb5bd;
+    border-left: 1px solid #0fa20f;
+    border-top: 1px solid #008000;
+    transition: 0.5s ease-in-out;
+}
+.bg-warning:hover{
+    transform: scale(0.9);
+    transition: 0.5s ease-in-out;
+}
+.fa, .fab, .fal, .far{
+    color: green;
+}
+.dt-sidebar--fixed .dt-brand+.dt-header__toolbar {
+    background: #fff;
+}
+.dt-side-nav__link {
+    color: #fff;
+}
+.fas {
+    color: green;
+}
+.owner-form{
+	border-top:1px solid gray !important;
+}
+.dt-footer a{
+    color: red!important;
+}
+.dt-footer a:hover{
+    text-decoration: underline !important;
+    color: blue!important;
+}
+.dt-footer {
+    background-color: #fff;
+    color: #545454;
+    padding: 1.2rem 3.2rem;
+    display: -ms-flexbox;
+    display: inline; */
+    -ms-flex-align: center;
+     align-items: center; 
+    min-height: 60px;
+    max-height: 60px;
+    margin-top: auto;
+    text-align: center;
+    border-top: solid 1px #e8e8e8;
+}
